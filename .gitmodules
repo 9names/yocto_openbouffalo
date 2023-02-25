@@ -1,0 +1,12 @@
+[submodule "poky"]
+	path = poky
+	url = git://git.yoctoproject.org/poky.git
+[submodule "meta-openembedded"]
+	path = meta-openembedded
+	url = git://git.openembedded.org/meta-openembedded
+[submodule "meta-openbouffalo"]
+	path = meta-openbouffalo
+	url = https://github.com/Fishwaldo/meta-openbouffalo.git
+[submodule "meta-bl808"]
+	path = meta-bl808
+	url = https://github.com/Fishwaldo/meta-bl808.git
