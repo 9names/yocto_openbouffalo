@@ -2,7 +2,7 @@
 
 This is mostly a meta-repository that includes the correctly configured
 submodules to easily do a yocto build for Bouffalo Labs BL808 based boards
-such as the Pine64 Ox64 and the Sipeeed M1S Dock.
+such as the Pine64 Ox64 and the Sipeed M1S Dock.
 
 To do one-itme initial setup which includes checking out repositories and
 initial yocto configuration, run:
@@ -31,5 +31,5 @@ MACHINE=pine64-ox64 bitbake openbouffalo-image
 or
 
 ```
-MACHINE+sipeeed-m1s bitbake openbouffalo-image
+MACHINE=sipeed-m1s bitbake openbouffalo-image
 ```
