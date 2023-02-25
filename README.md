@@ -25,5 +25,11 @@ This will move you to the main `build` directory.
 To build a full image run:
 
 ```
-bitbake openbouffalo-image
+MACHINE=pine64-ox64 bitbake openbouffalo-image
+```
+
+or
+
+```
+MACHINE+sipeeed-m1s bitbake openbouffalo-image
 ```
