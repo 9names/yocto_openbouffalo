@@ -31,5 +31,5 @@ MACHINE=pine64-ox64 bitbake openbouffalo-image
 or
 
 ```
-MACHINE+sipeeed-m1s bitbake openbouffalo-image
+MACHINE=sipeeed-m1s bitbake openbouffalo-image
 ```
